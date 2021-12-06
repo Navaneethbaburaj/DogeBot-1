@@ -141,7 +141,7 @@ autoketik = false;
 prefixStatus = false;
 targetpc = "919778713453"; 
 owner = "919778713453"; 
-fakeyoi = "Navaneeth"; 
+fakeyoi = "𝐍𝐚𝐯𝐚𝐧𝐞𝐞𝐭𝐡"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -150,7 +150,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
+nomorowner1 = "@919778713453"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -1325,14 +1325,14 @@ const serialUser = createSerial(18)
 	        fs.writeFileSync('./database/user/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
 	         const anuu = `「 *USER REGISTRATION* 」
-*Thank you for registering in the 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 Database*
+*Thank you for registering in the 𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭 Database*
 
 *☂︎ Name :* ${pushname}
 *☂︎ API :* +${sender.split('@')[0]}
 *☂︎ Serial:* ${serialUser}
 *☂ ︎Total:* ${_registered.length} User
 
-*「 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 」*`
+*「𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭 」*`
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `</️MENU`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
@@ -1613,7 +1613,7 @@ ${readmore}
 > ⬡ ${prefix}trapnime
 
 𝗡𝗼𝘁𝗲 : Horny = Bonks💥
-Is Kat Kristin Looks So Cute😍💞
+𝑰𝒔 𝑲𝒂𝒕 𝑲𝒓𝒊𝒔𝒕𝒊𝒏 𝑳𝒐𝒐𝒌𝒔 𝑺𝒐 𝑪𝒖𝒕𝒆𝒆😍💞
  
 𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
 `
@@ -1625,7 +1625,7 @@ case 'credit':
    dtod1 = '919778713453'
    dtod2 = '918100301975'
    dtod3 = ''
-   dtod4 ='0'
+   dtod4 ='919778713453'
    var yez = `
    [ 𝐶𝑟𝑒𝑑𝑖𝑡𝑠 𝐵𝑦 ] :
    
@@ -2008,7 +2008,7 @@ case 'command':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
- footerText: '𝐃𝐨𝐠𝐞 𝐁𝐨𝐭',
+ footerText: '𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭',
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
                      {
@@ -2080,7 +2080,7 @@ menu = `シ︎𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}𝙩𝙬𝙞𝙩𝙩𝙚𝙧 <𝙪𝙧𝙡>
 `
-sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, `𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2135,7 +2135,7 @@ menu = `シ𝘎𝘳𝘰𝘶𝘱 𝘔𝘦𝘯𝘶︎シ︎
 
 ㋛${prefix}group [open/close(button)]
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` 𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2217,7 +2217,7 @@ menu = `シ︎𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 ㋛${prefix}delimage <image name>
  
 ㋛${prefix}imagelist`
-sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, `𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2240,7 +2240,7 @@ menu = `シ︎𝘜𝘱𝘴𝘸 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}upswlocation
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` 𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2329,7 +2329,7 @@ menu = `シ︎𝘖𝘵𝘩𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}gimage <query>
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` 𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2378,7 +2378,7 @@ menu = `シ︎𝘔𝘢𝘬𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}waifu
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, `𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2417,7 +2417,7 @@ case 'catalog':
         },
         "businessOwnerJid": sender
       },
-      "footerText": " 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭"
+      "footerText": " 𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭"
     }
   }, {quoted: freply})
   xeon.relayWAMessage(list, {waitForAck: true})

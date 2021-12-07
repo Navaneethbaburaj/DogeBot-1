@@ -793,7 +793,7 @@ if (!itsMe && !isOwner)return
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
             title: "FakeReply Bang", //Kasih namalu
-            description: "Xeon",
+            description: "Fueno",
             currencyCode: "USD",
             priceAmount1000: "2000",
             retailerId: "𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭",
@@ -1336,7 +1336,7 @@ const serialUser = createSerial(18)
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `</️MENU`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
-              buttonsMessage = {footerText:'Xeon', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Navaneeth', imageMessage: imageMsg,
               contentText:`${anuu}`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkontak})
               xeon.relayWAMessage(prep)
@@ -1344,7 +1344,7 @@ const serialUser = createSerial(18)
 	    // console.log(e)
             setTimeout( () => {
 			xeon.updatePresence(from, Presence.composing)
-			reply(`*Thank you for being registered 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭*`)
+			reply(`*Thank you for being registered 𝐊𝐚𝐭 𝐊𝐫𝐢𝐬𝐭𝐢𝐧 𝐁𝐨𝐭* `)
 		}, 2000)
         break
       
@@ -1389,7 +1389,7 @@ prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkont
                break
 
         case 'allmenu':
-        case 'xeon':
+        case 'Navaneeth':
 groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
               ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -1615,7 +1615,7 @@ ${readmore}
 𝗡𝗼𝘁𝗲 : Horny = Bonks💥
 𝑰𝒔 𝑲𝒂𝒕 𝑲𝒓𝒊𝒔𝒕𝒊𝒏 𝑳𝒐𝒐𝒌𝒔 𝑺𝒐 𝑪𝒖𝒕𝒆𝒆😍💞
  
-𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
+Yeah, I Am Noob Lamao�😂💞
 `
 sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
 
